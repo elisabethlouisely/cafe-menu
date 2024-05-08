@@ -1,0 +1,112 @@
+  /* 
+    selector1, selector2 {
+        property: value;
+    } 
+*/
+
+h1,
+h2,
+p {
+  text-align: center;
+  color: rgba(235, 227, 227, 0.896);
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+
+/* You can add a fallback value for the font-family by adding another font name separated by a comma. 
+Fallbacks are used in instances where the initial is not found/available. */
+
+h1 {
+  font-size: 40px;
+  margin: 0 0 15px 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+body {
+  background-image: url("boston-public-library-YoK5pBcSY8s-unsplash.jpg");
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+}
+
+img {
+  display: block;
+  margin: -20px auto 0 auto;
+  border-radius: 50px;
+}
+
+.menu {
+  max-width: 500px;
+  width: 80%;
+  background-color: #000000e9;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 74%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+.item p {
+  display: inline-block;
+  margin: 5px 0 5px 0;
+  font-size: 18px;
+}
+
+.established {
+  font-style: italic;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: rgb(182, 74, 74);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(150, 70, 70);
+}
+
+a:hover {
+  color: rgb(155, 132, 132);
+}
+
+a:active {
+  color: white;
+}
